@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  location-service:
+    env_file:
+      - .dockerenv
+    ports:
+      - "32520:80"
+      - "32521:443"
